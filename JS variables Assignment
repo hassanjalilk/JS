@@ -1,0 +1,23 @@
+
+// fortune teller
+
+var noc = "No Idea";
+var pn = "No Clue";
+var gl = "Pak";
+var jt = "CEO maybe?!";
+
+var output = "I will be a " + jt + " in " + gl + ", and married to " + pn + " with " + noc + " kids!";
+
+document.write(output);
+console.log(output);
+
+// age calculator
+
+var cy = 2014
+var by = 1980
+var byy = 1985
+
+var age = "they are either " + (cy - by) + " or " + (cy - byy) + ""
+
+document.write(age);
+console.log(age);
