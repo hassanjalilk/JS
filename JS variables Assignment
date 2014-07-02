@@ -13,11 +13,40 @@ console.log(output);
 
 // age calculator
 
-var cy = 2014
-var by = 1980
-var byy = 1985
+var cy = 2014;
+var by = 1980;
+var byy = 1985;
 
-var age = "they are either " + (cy - by) + " or " + (cy - byy) + ""
+var age = "they are either " + (cy - by) + " or " + (cy - byy) + "";
 
 document.write(age);
 console.log(age);
+
+// supply of your fav snack
+
+var currentAge = 23;
+var maximumAge = 80;
+var estimatedMeal = 5;
+var totalDaysAYear = 365;
+
+var total_snack = "I will need " + ((maximumAge - currentAge) * estimatedMeal * totalDaysAYear) + " meals to last me until the ripe old age of " + maximumAge + ""
+
+document.write(total_snack);
+console.log(total_snack);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
