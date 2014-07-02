@@ -25,3 +25,54 @@ function ageCalculator() {
 
 document.write(ageCalculator());
 console.log(ageCalculator());
+
+
+
+// supply of your fav snack
+
+function favoriteSnack() {
+var currentAge = 23;
+var maximumAge = 80;
+var estimatedMeal = 5;
+var totalDaysAYear = 365;
+return "I will need " + ((maximumAge - currentAge) * estimatedMeal * totalDaysAYear) + " meals to last me until the ripe old age of " + maximumAge + ""
+
+}
+
+document.write(favoriteSnack());
+console.log(favoriteSnack());
+
+
+
+// calculating the circumference
+
+
+function radiusA() {
+var radius = 10;
+return 2 * radius * Math.PI;
+}
+
+document.write(radiusA());
+console.log(radiusA());
+
+
+
+// calculating the area
+
+function radiusA() {
+var radius = 10;
+return Math.PI * radius * radius;
+}
+
+document.write(radiusA());
+console.log(radiusA());
+
+
+
+
+
+
+
+
+
+
