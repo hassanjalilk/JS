@@ -38,6 +38,10 @@ console.log("B")}
 // ----
 
 
+var pluralize = [5, "cats"]
+
+console.log(pluralize[0] + " " + pluralize[1])
+
 
 
 
