@@ -42,7 +42,7 @@ console.log(books[3].title + " " + books[3].authur + " " + books[3].read);
 var movie = [
 	{title: "kite Runner",
 	 duration: "3 hours",
-	 stars: "5"},
+	 stars: ["a", "b", "c"]},
 
 	{title: "kite Runner",
 	 duration: "3 hours",
@@ -50,20 +50,20 @@ var movie = [
 
 	{title: "kite Runner",
 	 duration: "3 hours",
-	 stars: "5"},
+	 stars: ["a", "b", "c"]},
 
 	{title: "kite Runner",
 	 duration: "3 hours",
-	 stars: "5"}
+	 stars: ["a", "b", "c"]}
 ];
 
 
 
-function printMovie(movie) {
-	console.log(movie[0].title);
+function printMovie() {
+	console.log(movie[0].title + " " + movie[0].duration + " and the stars are " + movie[0].stars);
 }
 
-
+printMovie();
 
 
 
