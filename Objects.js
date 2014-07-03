@@ -5,10 +5,12 @@ var favRecipe = {
 	ingredients: ["a", "b", "c"]
 };
 
-
 	console.log(favRecipe.title);
-	console.log(favRecipe.servings);
-	console.log(favRecipe.ingredients);
+	console.log("serves:" + " " + favRecipe.servings);
+	console.log("Ingredients");
+	console.log(favRecipe.ingredients[0]);
+	console.log(favRecipe.ingredients[1]);
+	console.log(favRecipe.ingredients[2]);
 
 
 // --------------------	
